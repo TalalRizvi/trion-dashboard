@@ -89,11 +89,8 @@ export default function Dashboard() {
         height:       64,
         gap:          12
       }}>
-        <span style={{ fontSize: 22 }}>🍗</span>
-        <div>
-          <h1 style={{ fontSize: 16, fontWeight: 700, color: '#111', margin: 0 }}>KFC Orders</h1>
-          <p style={{ fontSize: 11, color: '#999', margin: 0 }}>Order Management Dashboard</p>
-        </div>
+        <img src="/Trion_logo.png" alt="Trion" style={{ height: 40 }} />
+        <h1 style={{ fontSize: 16, fontWeight: 700, color: '#111', margin: 0 }}>Trion Order Management System</h1>
         {newOrders > 0 && (
           <div style={{
             marginLeft:      'auto',
